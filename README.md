@@ -46,15 +46,10 @@
 
 ## 🧠 Approach Philosophy
 
-Every solution file follows the same structure:
-
-1. **Problem statement** — linked and summarized in the module docstring
-2. **Multiple approaches** — from brute force to optimal, each as its own class
+Every problem is solved multiple ways — from brute force to optimal:
 
 ```python
 class Solution:
-    """Hash set — early exit on first duplicate."""
-
     def containsDuplicate(self, nums: list[int]) -> bool:
         seen = set()
         for n in nums:
