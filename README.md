@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8871e5,50:b678c4,100:f77187&height=200&section=header&text=Problem%20Solving&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Structures%20%26%20Algorithms&descSize=20&descAlignY=58" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8871e5,50:b678c4,100:f77187&height=200&section=header&text=Problem%20Solving&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Structures%20and%20Algorithms&descSize=20&descAlignY=58" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&pause=1000&center=true&vCenter=true&width=600&lines=Grinding+LeetCode%2C+one+problem+at+a+time;Multiple+approaches+per+problem;Clean%2C+readable+Python+solutions" alt="Typing animation" />
 
