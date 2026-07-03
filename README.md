@@ -44,31 +44,6 @@
 |:--|:--------|:----------:|:--------:|:-------|
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy | [Python](arrays_hashing/0217_contains_duplicate.py) | Array, Hash Table |
 
-## 🧠 Approach Philosophy
-
-Every problem is solved multiple ways — from brute force to optimal:
-
-```python
-class Solution:
-    def containsDuplicate(self, nums: list[int]) -> bool:
-        seen = set()
-        for n in nums:
-            if n in seen:
-                return True
-            seen.add(n)
-        return False
-```
-
-## 🛠️ Running a Solution
-
-```bash
-git clone git@github.com:wahoob/problem-solving.git
-cd problem-solving
-python -i arrays_hashing/0217_contains_duplicate.py
->>> Solution().containsDuplicate([1, 2, 3, 1])
-True
-```
-
 ---
 
 <div align="center">
