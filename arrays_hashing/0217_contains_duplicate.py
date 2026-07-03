@@ -10,11 +10,7 @@ Difficulty: Easy | Topics: Array, Hash Table, Sorting
 
 
 class Solution:
-    """Hash set — early exit on first duplicate.
-
-    Time:  O(n)
-    Space: O(n)
-    """
+    """Hash set — early exit on first duplicate."""
 
     def containsDuplicate(self, nums: list[int]) -> bool:
         seen = set()
@@ -26,11 +22,7 @@ class Solution:
 
 
 class SolutionHashMap:
-    """Hash map with counts — same idea, heavier structure.
-
-    Time:  O(n)
-    Space: O(n)
-    """
+    """Hash map with counts — same idea, heavier structure."""
 
     def containsDuplicate(self, nums: list[int]) -> bool:
         duplicates = {}
@@ -42,11 +34,7 @@ class SolutionHashMap:
 
 
 class SolutionOneLiner:
-    """Length comparison — concise, but always scans the full array.
-
-    Time:  O(n)
-    Space: O(n)
-    """
+    """Length comparison — concise, but always scans the full array."""
 
     def containsDuplicate(self, nums: list[int]) -> bool:
         return len(set(nums)) != len(nums)
